@@ -11,6 +11,7 @@ var Dancer = function(top, left, timeBetweenSteps){
   this.step();
 };
 
+//Dancer instances are meant to stand still 
 Dancer.prototype.step = function(){
   var context = this;
   var callback = function(){
